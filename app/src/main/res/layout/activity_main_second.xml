@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email" android:text="E-mail" android:layout_above="@id/title"
+            android:layout_marginLeft="50dp" android:layout_marginBottom="30dp" android:textColor="#191717"
+            app:lineHeight="40dp" android:textSize="18sp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/title" android:layout_above="@id/msg"
+            android:layout_marginBottom="30dp" android:layout_marginLeft="50dp" android:text="Temat"
+            android:textColor="#191818" app:lineHeight="50dp" android:textSize="18sp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/msg" android:layout_above="@id/back"
+            android:layout_marginLeft="50dp" android:layout_marginBottom="83dp" android:text="Treść wiadomości"
+            android:textColor="#131313" app:lineHeight="50dp" android:textSize="18sp"/>
+    <Button
+            android:text="Wstecz"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/back"
+            android:layout_centerInParent="true" style="@style/Widget.AppCompat.Button.Colored"
+            android:textColor="#131313"/>
+    <TextView
+            android:text="Wiadomość od:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView4" android:textColor="#131313"
+            android:textSize="22sp" android:layout_above="@id/email" android:layout_marginBottom="60dp"
+            android:layout_marginLeft="20dp"/>
+</RelativeLayout>
