@@ -9,10 +9,10 @@ import android.os.Bundle;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
-    EditText emailEditText;
-    EditText titleEditText;
-    EditText msgEditText;
-    Button sendButton;
+    private EditText emailEditText;
+    private EditText titleEditText;
+    private EditText msgEditText;
+    private Button sendButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

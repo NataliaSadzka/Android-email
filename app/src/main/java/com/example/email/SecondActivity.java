@@ -9,10 +9,10 @@ import android.widget.TextView;
 
 public class SecondActivity extends Activity implements View.OnClickListener {
 
-    TextView emailTextView;
-    TextView titleTextView;
-    TextView msgTextView;
-    Button backButton;
+    private TextView emailTextView;
+    private TextView titleTextView;
+    private TextView msgTextView;
+    private Button backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
